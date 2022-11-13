@@ -1,6 +1,13 @@
 # Nuxt 3 Minimal Starter
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+- [Deployment (incl. Netlify)](https://v3.nuxtjs.org/getting-started/deployment)
+
+### Deployment on Netlify
+
+```bash
+# Build Command
+npx nuxi generate
+```
 
 ## Setup
 
