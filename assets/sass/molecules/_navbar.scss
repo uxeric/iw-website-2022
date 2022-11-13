@@ -1,0 +1,55 @@
+// Layout
+.navbar {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding-top: $mar-sm;
+  padding-bottom: $mar-sm;
+
+  .logo-container {
+    margin-left: $mar-lg;
+
+    .logo {
+      margin-bottom: -3px;
+      height: 60px;
+    }
+  }
+  .nav-items {
+    justify-self: end;
+    align-self: center;
+    margin-right: $mar-lg;
+
+    .nav-item {
+      padding: $mar-sm $mar-xl;
+      border: 2px solid transparent;
+      border-radius: $border-radius;
+    }
+  }
+}
+
+// Style
+.navbar {
+  .nav-items {
+    .nav-item {
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:link, &:visited, &:focus {
+        color: $black;
+      }
+      &:hover, &:active {
+        border-bottom: 2px solid $brand-primary;
+      }
+    }
+    .nav-item.nav-item-button {
+      border: 2px solid $brand-primary;
+
+      &:link, &:visited, &:focus {
+        color: $brand-primary;
+      }
+      &:hover, &:active {
+        color: $white;
+        background-color: $brand-primary;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.divider {
+  display: block;
+  height: 4px;
+  width: 70px;
+  margin: $mar-xl auto $mar-xxl;
+  background: $brand-primary;
+
+  &.divider-light {
+    background: $white;
+  }
+}

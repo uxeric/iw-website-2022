@@ -1,0 +1,39 @@
+// Layout
+.cta {
+  padding-top: $mar-xl;
+  padding-bottom: $mar-xxl;
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+  
+  .content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    .heading {
+      margin-bottom: $mar-lg;
+    }
+    .body {
+      margin-bottom: $mar-xxxl;
+    }
+    .actions {
+      margin-bottom: $mar-xxl;
+    }
+  }
+}
+
+// Style
+.cta {
+  font-size: 1.2em;
+  text-align: center;
+
+  .content {
+    .body {
+      color: $gray-darkish;
+      
+      li {
+        list-style: none;
+        line-height: 2.25;
+      }
+    }
+  }
+}

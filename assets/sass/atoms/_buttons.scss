@@ -1,0 +1,62 @@
+.button {
+  padding: $mar-sm $mar-lg;
+  border: 2px solid transparent;
+  border-radius: $border-radius;
+
+  &:link, &:visited, &:focus {
+    text-decoration: none;
+  }
+  &:hover, &:active {
+    text-decoration: none;
+  }
+}
+
+.button + .button {
+  margin-left: $mar-lg;
+}
+
+// Button Variations
+
+.button.button-default {
+  color: white;
+  background-color: $brand-primary;
+  border: 2px solid $brand-primary;
+
+  &:link, &:visited, &:focus {
+    
+  }
+  &:hover, &:active {
+    border: 2px solid darken( $brand-primary, 10% );
+    background-color: darken( $brand-primary, 10% );
+  }
+}
+
+.button.button-ghost-primary {
+  color: $brand-primary;
+  background-color: transparent;
+  border: 2px solid $brand-primary;
+
+  &:link, &:visited, &:focus {
+    
+  }
+  &:hover, &:active {
+    color: white;
+    background-color: $brand-primary;
+    border: 2px solid $brand-primary;
+  }
+}
+
+.button.button-ghost-light {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+
+  &:link, &:visited, &:focus {
+    
+  }
+  &:hover, &:active {
+    color: white;
+    background-color: $brand-primary;
+    border: 2px solid $brand-primary;
+  }
+}

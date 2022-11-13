@@ -1,0 +1,76 @@
+// Layout
+.footer {
+  display: grid;
+  padding-top: $mar-xxxl;
+  padding-bottom: $mar-lg;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: auto auto;
+
+  .content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 30% 5% 30% 5% 30%;
+
+    .column:nth-child(1) {
+      grid-column: 1 / 2;
+    }
+    .column:nth-child(2) {
+      grid-column: 3 / 4;
+    }
+    .column:nth-child(3) {
+      grid-column: 5 / 6;
+    }
+    .logo {
+      margin-bottom: $mar-md;
+    }
+  }
+  .copyright {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+}
+
+// Style
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.925)), url("/images/industrial-06.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: $white;
+
+  .logo {
+    height: 62px;
+    background: transparent;
+  }
+  .body {
+    line-height: 1.6;
+  }
+  .title {
+    padding-bottom: $mar-lg;
+    border-bottom: 1px solid $white;
+  }
+  .links {
+    list-style: none;
+    padding-left: 0;
+
+    .link {
+      line-height: 2.2;
+      color: $white;
+      text-decoration: none;
+
+      &:link, &:visited, &:focus {
+
+      }
+      &:hover, &:active {
+        padding-bottom: 2px;
+        border-bottom: 1px solid $white;
+      }
+    }
+  }
+  .copyright {
+    margin-top: 40px;
+    font-size: $small;
+    text-align: center
+  }
+}

@@ -1,0 +1,21 @@
+form {
+  .hidden {
+    display: none;
+  }
+  input[type]:not([type=hidden]),
+  textarea {
+    padding: 12px 15px;
+    margin-bottom: $mar-md;
+    border: 1px solid #b9b9b9;
+
+    &::placeholder {
+      color: #555555;
+    }
+  }
+  input[type]:not([type=hidden]) + input[type]:not([type=hidden]) {
+    margin-left: $mar-md;
+  }
+  .g-recaptcha > div:first-child {
+    margin: 0 auto;
+  }
+}

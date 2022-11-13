@@ -1,0 +1,45 @@
+// Layout
+.hero {
+  display: grid;
+  padding-top: $mar-xxl;
+  padding-bottom: $mar-xxl;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: 50px auto 50px;
+
+  .content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    .heading {
+      margin-bottom: $mar-xxl;
+    }
+    .sub-heading {
+      margin-bottom: $mar-xxl;
+    }
+  }
+}
+
+// Style
+.hero {
+  background:
+          linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.60)),
+          url("/images/industrial-03.jpg");
+
+  .content {
+    .heading {
+      color: $brand-tertiary;
+      font-size: $h1;
+      margin-top: 0;
+      line-height: 1.18;
+
+      .highlight {
+        background-color: rgba(255, 255, 255, 0.70);
+      }
+    }
+    .sub-heading {
+      color: $white;
+    }
+  }
+}

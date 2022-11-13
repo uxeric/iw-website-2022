@@ -1,0 +1,29 @@
+.contact {
+  padding: $mar-xl 0;
+  display: grid;
+  grid-template-columns: 15% 35% 35% 15%;
+  grid-template-rows: 25% 25% 25% 25%;
+
+  .name {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .email {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+  .message {
+    height: 112px;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+  }
+  .captcha {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+  }
+  .actions {
+    margin: $mar-md 0 $mar-xl;
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+  }
+}
