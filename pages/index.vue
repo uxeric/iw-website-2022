@@ -16,7 +16,7 @@
 
 <script setup>
 useHead({
-  title: 'Industrial Webworks',
+  title: 'Industrial Webworks | Prototype. Build. Succeed.',
 
   meta: [
     {

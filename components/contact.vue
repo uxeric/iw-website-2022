@@ -10,8 +10,9 @@
         name="contact"
         class="contact"
         method="post"
+        action="/?submitted=contact#contact"
         netlify
-        netlify-honeypot="position"
+        netlify-honeypot="bot-field"
     >
       <input
           id="name"
@@ -41,15 +42,15 @@
           data-error="Please write your message"
       ></textarea>
 
-      <span class="hidden">
-        <input name="position" />
-    </span>
-
       <div class="actions text-align-center">
         <button id="contact-submit" class="button button-default" type="submit">
           Send
         </button>
       </div>
     </form>
+
+    <alert v-show="$route.query['submitted'] === 'contact'" >
+      Thank you for contacting us. We'll reply to your message soon!
+    </alert>
   </div>
 </template>
