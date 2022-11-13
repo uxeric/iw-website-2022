@@ -3,7 +3,7 @@
     <div class="columns-3 content">
       <div class="column">
         <div class="logo-container">
-          <img class="logo" src="images/industrial-webworks-logo-white.png" alt="Industrial Webworks Logo">
+          <img class="logo" src="/images/industrial-webworks-logo-white.png" alt="Industrial Webworks Logo">
         </div>
         <div class="body">
           Prototype. Build. <br/>

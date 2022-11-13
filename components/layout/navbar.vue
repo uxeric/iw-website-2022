@@ -1,7 +1,7 @@
 <template>
   <div class="navbar" id="home">
     <div class="logo-container">
-      <img class="logo" src="images/industrial-webworks-logo.png" alt="Industrial Webworks Logo">
+      <img class="logo" src="/images/industrial-webworks-logo.png" alt="Industrial Webworks Logo">
     </div>
     <div class="nav-items">
       <a href="#home" class="nav-item">Home</a>

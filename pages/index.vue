@@ -20,7 +20,7 @@ useHead({
 
   meta: [
     {
-      name: 'Industrial Webworks',
+      name: 'Industrial Webworks | Prototype. Build. Succeed.',
       content: 'Industrial Webworks owned and operated in Florida, USA'
     }
   ],
