@@ -7,10 +7,10 @@
 
     <form
         id="contact-form"
-        name="contact"
+        name="contact-form"
         class="contact"
-        method="post"
         action="/?submitted=contact#contact"
+        method="post"
         netlify
         netlify-honeypot="bot-field"
     >
