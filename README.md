@@ -2,12 +2,16 @@
 
 - [Deployment (incl. Netlify)](https://v3.nuxtjs.org/getting-started/deployment)
 
-### Deployment on Netlify
+## Deployment on Netlify
 
 ```bash
 # Build Command
 npx nuxi generate
 ```
+
+## Documentation
+
+- [Vue GTag - Google Analytics](https://matteo-gabriele.gitbook.io/vue-gtag/)
 
 ## Setup
 
