@@ -1,17 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Industrial Webworks - Corporate Website
 
-- [Deployment (incl. Netlify)](https://v3.nuxtjs.org/getting-started/deployment)
+A servicable single page corporate website built on Nuxt 3.
 
-## Deployment on Netlify
-
-```bash
-# Build Command
-npx nuxi generate
-```
+# Tech Stack
+- [Nuxt 3](https://nuxt.com/docs)
+- [Vue 3](https://vuejs.org/guide/introduction.html)
+- [SASS](https://sass-lang.com/)
+- [Vue GTag](https://www.npmjs.com/package/vue-gtag)
 
 ## Documentation
-
+- [Deployment (incl. Netlify)](https://v3.nuxtjs.org/getting-started/deployment)
 - [Vue GTag - Google Analytics](https://matteo-gabriele.gitbook.io/vue-gtag/)
+- [Deployment Documentation](https://v3.nuxtjs.org/guide/deploy/presets)
 
 ## Setup
 
@@ -28,26 +28,22 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
+## Commands
 
 ```bash
+# Start the development server on http://localhost:3000
 npm run dev
-```
 
-## Production
-
-Build the application for production:
-
-```bash
+# Build the application for production:
 npm run build
-```
 
-Locally preview production build:
-
-```bash
+# Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## Deployment on Netlify
+
+```bash
+# Build Command
+npx nuxi generate
+```
